@@ -1,0 +1,18 @@
+/* base styles */
+:root{
+    --navItemBackground:#FBFBFB;
+    --navItemFontColor:#000000;
+    --btnBackground:#FC006B;
+    --btnFontColor:#FFFFFF;
+    --cardHeadingSize:16px;
+    --cardHeadingColor:#000000;
+    --cardheadingWieght:700;
+    --cardparaColor:#FC006B;
+    --sectionBackground:#3F3F3F;
+    --prefectFont:#8AF270;
+    --normalFont:#FFDF6C;
+    --WeekFont:#FF783F;
+    --InputBackGround:#FBFBFB;  
+    --borderRadius:0.2rem;
+}
+/* base Styles */
