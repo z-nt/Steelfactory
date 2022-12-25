@@ -17,9 +17,7 @@
     position: relative;
     justify-content: space-evenly;
     background-color: transparent;
-   
     align-items: center;
-    
  }
 nav .navbar-nav .nav-item{
     height: 3rem;
@@ -31,9 +29,10 @@ nav .navbar-nav .nav-item{
     align-items: center;
     justify-content: center;
 }
+
+
 /* navLogo */
 nav .navbar-nav #navLogo{
-  
     width: 10rem;
     height: 7rem;
     background-color: transparent;
@@ -57,11 +56,61 @@ nav .navbar-nav .nav-item
     height: 100%;
     position: relative;   
 }
-
-
-
-
 /* navbarNav*/
+/* sectionFactory */
+#sectionFactory{
+    border: none;
+    width: 100%;
+    height:100vh;
+    position: relative;
+}
+
+#sectionFactory .container{
+    border:none;
+    height: 80%;
+    border-radius: 0.2rem;
+    background-image: url("../../Images/indexbg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* steel-factory-text  */
+    #sectionFactory .container
+    .steel-factory-text h1,p{
+        width: 60%;
+        font-weight: var(--cardheadingWieght);
+    }
+    #sectionFactory .container
+    .steel-factory-text h1{
+        color: var(--navItemBackground);
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+    }
+
+    #sectionFactory .container
+    .steel-factory-text p{
+        color: var(--navItemBackground);
+    }
+
+    #sectionFactory .container
+    .steel-factory-text button{
+        background-color: var(--btnBackground);
+        color: var(--btnFontColor); 
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        padding: 1% 4%;
+    }
+
+/* sectionFactory End */
 
 
 

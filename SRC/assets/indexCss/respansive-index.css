@@ -1,0 +1,80 @@
+@import url("./base.css");
+/* nabarRespansive */
+@media screen and (max-width:900px) {
+    nav{
+        background-color:var(--sectionBackground);
+    }
+    nav .navbar-toggler {
+        border: 1px solid red ;
+        color: var(--btnBackground);
+    }
+    nav #navbarTogglerDemo01 .navbar-nav{
+        border: none;
+        text-align: right;
+        align-items: flex-start;
+    }
+    nav .navbar-nav .nav-item{
+        border: none;
+        margin-top: 0.5rem;
+        transition: all 0.3s ease;
+    }
+    nav .navbar-nav #navLogo{
+        display: none;
+    }
+
+    nav .navbar-nav .nav-item:hover{
+        margin-right: 0.3rem;
+        background-color: var(--btnBackground);
+    }
+    nav .navbar-nav .nav-item:hover .nav-link{
+        color: var(--btnFontColor);
+    }
+}
+/* navbarRespansive */
+/* sectionFactoryRespansiveCode */
+@media screen and (max-width:910px){
+    #sectionFactory{
+        width: 100%;
+        position: relative;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    #sectionFactory .container {
+        height: 100%;
+        text-align: right;
+        align-items: flex-start;
+
+    }
+    #sectionFactory .container .steel-factory-text{
+        height: 100%;
+        display:flex;
+        justify-content: space-evenly;        display:flex ;
+        flex-direction: column;
+        position: relative;
+    }
+
+    #sectionFactory .container
+    .steel-factory-text h1,p{
+     
+        width: 100%;
+    }
+    #sectionFactory .container
+    .steel-factory-text h1{
+       
+        font-size: 2rem;
+    }
+    #sectionFactory .container
+    .steel-factory-text p{
+   
+        font-size: 1rem;
+    }
+    #sectionFactory .container
+    .steel-factory-text button{
+      
+        box-sizing: border-box;
+        max-height: 3em;
+    }
+
+
+}
+/* sectionFactoryRespansiveCode */
