@@ -78,3 +78,29 @@
 
 }
 /* sectionFactoryRespansiveCode */
+/* section service-Respansive-Code*/
+
+@media screen and (max-width:910px){
+    #section-services{
+        margin: 0.2rem auto; 
+        position: relative;
+        width: 100%;
+   }
+}
+#section-services .container 
+.services-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0%;
+}
+#section-services .container .services-container
+ .services-items .service-item-text h1,p{
+    width: 100%;
+    font: 1rem;    
+ }
+
+
+
+/* section service-Respansive-Code*/
